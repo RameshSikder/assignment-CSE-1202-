@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"d:\\CSE courses\\DSA\\DS-Assignment\\test.c","tests":[{"id":1779037726701,"input":"111\n10 32\n1234\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CSE courses\\DSA\\DS-Assignment\\test.c","group":"local","local":true}
