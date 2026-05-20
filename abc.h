@@ -204,6 +204,12 @@ int gcd(int a, int b) {
     return a;
 }
 
+int lcm(int a, int b) {
+    if (a <= 0 || b <= 0) return -1; 
+    int lcm =  (a / gcd(a, b)) * b;
+    return lcm;        
+}
+
 
 
 long long power(int base, int exp) {

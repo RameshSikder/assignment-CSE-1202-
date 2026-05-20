@@ -12,8 +12,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    bool flag = palindrome(arr,n);
-    if(palindrome){
+    bool flag = palindrome(arr, n);
+    if(flag){                       
         printf("YES it is palindrome\n");
     }
     else{
@@ -34,6 +34,7 @@ int main(){
     // printf("Minimum of %d and %d is = %d\n",a,b,min(a,b));
     // printf("Factorial of %d is =%d\n",a,factorial(a)); 
     // printf("GCD of %d and %d = %d\n",a,b,gcd(a,b));
+    // printf("LCM of %d and %d = %d\n",a,b,lcm(a,b));
     // bool prime = isPrime(a);
     // if(prime){
     //     printf("%d is a prime number\n",a);
