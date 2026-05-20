@@ -17,6 +17,7 @@ bool palindrome(int arr[], int n);
 long long factorial(int n);
 int gcd(int a, int b);
 long long power(int base, int exp);
+void swap(int a, int b);
 
 
 int max(int a, int b){
@@ -211,4 +212,12 @@ long long power(int base, int exp) {
     for (int i = 0; i < exp; i++)
         result *= base;
     return result;
+}
+
+void swap(int a, int b){
+    int temp = a;
+    a = b;
+    b = temp;
+
+    printf("%d %d\n",a,b);
 }
